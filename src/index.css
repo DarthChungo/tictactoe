@@ -4,11 +4,15 @@
   padding: 0;
 
   box-sizing: border-box;
+  overflow: hidden;
+
+  scrollbar-width: none;
 }
 
 html, body, #root {
   width: 100%;
   height: 100%;
+  color: #776E65;
 }
 
 .center {
@@ -19,7 +23,10 @@ html, body, #root {
 /*
 
 #FAF8EF
+
 #EEE4DA
+#776E65
+
 #EEE1C9
 #F3B27A
 #F69664
