@@ -1,7 +1,0 @@
-#Bar {
-  border-top: 1px solid #aaaaaa;
-  margin: 1rem 4rem;
-  width: calc(100% - 8rem);
-  min-width: 14rem;
-  max-width: 48rem;
-}
