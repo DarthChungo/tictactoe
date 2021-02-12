@@ -86,16 +86,18 @@ class Game extends React.Component<{}, { style: CSSProperties }> {
   render() {
     return (
       <section id="Game" className="center">
-        <div id="Board" style={this.state.style}>
-          <div className="el n1"></div>
-          <div className="el n2"></div>
-          <div className="el n3"></div>
-          <div className="el n4"></div>
-          <div className="el n5"></div>
-          <div className="el n6"></div>
-          <div className="el n7"></div>
-          <div className="el n8"></div>
-          <div className="el n9"></div>
+        <div className="wrap">
+          <div id="Board" style={this.state.style}>
+            <div className="el n1"></div>
+            <div className="el n2"></div>
+            <div className="el n3"></div>
+            <div className="el n4"></div>
+            <div className="el n5"></div>
+            <div className="el n6"></div>
+            <div className="el n7"></div>
+            <div className="el n8"></div>
+            <div className="el n9"></div>
+          </div>
         </div>
       </section>
     );
