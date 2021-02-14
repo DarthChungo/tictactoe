@@ -7,6 +7,7 @@
   overflow: hidden;
 
   scrollbar-width: none;
+  user-select: none;
 }
 
 html, body, #root {
@@ -53,10 +54,58 @@ html, body, #root {
   padding: 5px;
 }
 
-#Game .el {
+#overlay {
+  background:rgba(238, 228, 218, 0.73);
+  position: absolute;
+  border-radius: 0.5rem;
+}
+
+#overlay p {
+  font-family: 'clear-sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#overlay p strong {
+  font-weight: 400;
+}
+
+#overlay button {
+  color: #e6e4dc;
+  background: #BBADA0;
+
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+
+  font-weight: 500;
+  font-size: 1rem;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+#info p {
+  font-family: 'clear-sans', sans-serif;
+  font-weight: 300;
+  
+  padding: 1.2rem;
+}
+
+#info p strong {
+  font-weight: 400;
+}
+
+#Tile {
   background: #CDC1B4;
   border-radius: 0.5rem;
   margin: 4%;
+
+  font-family: 'clear-sans', sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
 }
 
 #Header h1 {
@@ -99,18 +148,3 @@ html, body, #root {
   max-width: 28rem;
   min-width: 12rem;
 }
-
-/*
-
-#FAF8EF
-
-#EEE4DA
-#776E65
-#BBADA0
-#CDC1B4
-
-#EEE1C9
-#F3B27A
-#F69664
-
-*/
